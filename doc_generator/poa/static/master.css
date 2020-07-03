@@ -1,0 +1,106 @@
+html,
+body {
+
+  height: 100%;
+  width: 100%;
+
+  background: #ddd;
+  margin: 0;
+  color: #111;
+  font-family: sans-serif;
+}
+
+
+
+.form-body{
+  padding: 30px 100px;
+  display: flex;
+  flex-flow: column;
+
+  max-width: 800px;
+  background: #eee;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #aaa;
+  border-radius: 1%;
+
+}
+
+.forms{
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+.navitems{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 3px 6px;
+}
+
+.title-center{
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 10px;
+
+}
+
+.text-body{
+  margin: 5px 0px;
+  text-align: justify;
+  font-size: 11px;
+}
+
+.text-end{
+  font-size: 11px;
+}
+
+.date{
+  margin-top: 25px;
+}
+
+.signature{
+  text-align: center;
+  padding: 0px;
+  margin: 40px;
+  margin-bottom: 30px
+}
+.signature-item{
+  padding: 0px;
+  margin: 0px;
+}
+
+}
+.mynav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#logo {
+  width: 45px;
+  height: 45px;
+  padding: 3px;
+}
+
+#postForm {
+  padding: 0px;
+  margin: 0px;
+}
+.form-title{
+  margin: 10px 0px;
+}
+
+
+h3 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#create {
+  margin: 10px 0px;
+}

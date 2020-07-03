@@ -1,0 +1,20 @@
+{% extends "poa/base.html" %}
+{% load bootstrap4 %}
+
+	{% block content %}
+		<div class="container form-body">
+
+			<header class="form-title">
+				<h3>Dados da Procuração</h3>
+			</header>
+
+			<section class="forms">
+				<form id='postForm' action="{% url 'poa:create' %}" method="POST">
+					
+					{% csrf_token %}
+					{% bootstrap_form form %}
+					<input type="submit" id="create" value="Criar Procuração!" class="btn btn-primary btn-large" name="">
+				</form>
+			</section>
+		</div>
+	{% endblock content %}

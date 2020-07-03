@@ -1,0 +1,45 @@
+{% extends "poa/base.html" %}
+
+{% block content %}
+<article class="container form-body">
+
+	<header class="form-title title-center"><h3>P R O C U R A Ç Ã O</h3></header>
+
+	<section class="text-body">
+
+	<p>Pelo presente instrumento particular de mandato por mim abaixo assinado: </p> 
+
+	<p><strong>OUTORGANTE: {{poa.nome}} {{poa.sobrenome}}</strong>, {{poa.nacionalidade}}, {{poa.profissao}}, {{poa.estado_civil}},  portadora da Carteira de Identidade RG nº {{poa.identidade}}, inscrita no CPF sob o nº {{poa.cpf}} residente e domiciliado Rua {{poa.endereco}}, endereço eletrônico: {{poa.email}}, constituo e nomeio como meu bastante procurador:</p>
+
+	<p><strong>OUTORGADO: </strong><strong>Dr. Germain Martins Pereira</strong>, brasileiro, solteiro, advogado, inscrito na Ordem dos Advogados do Brasil Seccional de Minas Gerais sob nº. 123456, profissional com escritório localizado na Rua Baker Street, nº 221B, Bairro Centro, CEP: 12345-678 – Belo Horizonte – MG, endereço eletrônico: meu@email.com</p>
+
+
+	<p><strong>OBJETO:</strong> representar o (s) Outorgante (s), promovendo a defesa dos seus direitos e interesses, podendo, para tanto, propor quaisquer ações, medidas incidentais, acompanhar os processos administrativos e/ou judiciais em qualquer Juízo, Instância, Tribunal, ou Repartição Pública.</p>
+
+
+
+	<p><strong>PODERES</strong><strong>: </strong>Por este instrumento particular de procuração, constituo meus bastantes procuradores os outorgados, concedendo-lhe os poderes inerentes da cláusula <strong><i>ad juditia</i><i> et extra</i></strong>, para o foro em geral, especialmente para propor <strong>AÇÃO XXXXXX C/C XXXXX em face de </strong><strong>XXXXXX</strong><strong>, </strong><strong>inscrito no CPF sob o nº XXXXXXXX </strong>podendo, portanto, promover quaisquer medidas judiciais ou administrativas, assinar termo, oferecer defesa, direta ou indireta, interpor recursos, ajuizar ações e conduzir os respectivos processos, solicitar, providenciar e ter acesso a documentos de qualquer natureza, sendo o presente instrumento de mandato oneroso e contratual podendo substabelecer este a outrem, com ou sem reserva de poderes, dando tudo por bom e valioso, a fim de praticar todos os demais atos necessários ao fiel desempenho deste mandato.</p>
+
+
+
+	<p><strong>PODERES ESPECÍFICOS</strong><strong>: </strong>A presente procuração outorga aos Advogados acima descritos, os poderes especiais para <strong>receber citação, confessar, reconhecer a procedência do pedido, transigir, desistir, renunciar ao direito sobre que se funda a ação, firmar compromissos ou acordos, receber valores, dar e receber quitação, receber e dar quitação, levantar ou receber RPV e ALVARÁS, pedir a justiça gratuita e assinar declaração de hipossuficiência econômica, em conformidade com a norma do art. 105 da Lei 13.105 2015.</strong> </p>
+
+	</section>
+
+	<footer class="text-end">
+
+
+	<p class="date">Belo Horizonte/MG, 02 de Julho de 2020.</p>
+
+	<div class="signature">
+
+	<p class="signature-item">___________________________________________</p>
+
+	<p signature-item><strong>{{poa.nome}} {{poa.sobrenome}}</strong></p>
+
+	</div>
+
+	<footer>
+
+</article>
+{% endblock content %}
