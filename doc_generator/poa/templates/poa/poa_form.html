@@ -6,15 +6,24 @@
 
 			<header class="form-title">
 				<h3>Dados da Procuração</h3>
+				<hr>
 			</header>
+
+
 
 			<section class="forms">
 				<form id='postForm' action="{% url 'poa:create' %}" method="POST">
 					
 					{% csrf_token %}
 					{% bootstrap_form form %}
-					<input type="submit" id="create" value="Criar Procuração!" class="btn btn-primary btn-large" name="">
+					<input type="submit" id="create-button" value="" class="" name="">
 				</form>
+
+				<div class="button-container">
+					<input type="button" id="secondaryButton" value="Criar Procuração!" class="btn btn-primary btn-large" onclick="document.getElementById('create-button').click()" />
+				</div>
+
+
 			</section>
 		</div>
 	{% endblock content %}

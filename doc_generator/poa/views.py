@@ -29,12 +29,29 @@ class CreatePoA(generic.edit.CreateView):
             form_class = self.get_form_class()
 
         form = super(CreatePoA, self).get_form(form_class)
-        form.fields['nome'].label = 'Nome'
         form.fields['nome'].widget = forms.TextInput(attrs={'placeholder': 'Digite o seu nome'})
 
+        form.fields['nome'].label = 'Nome'
 
-        form.fields['sobrenome'].label = 'Sobrenome'
         form.fields['sobrenome'].widget = forms.TextInput(attrs={'placeholder': 'Digite o seu sobrenome'})
+
+        form.fields['nacionalidade'].widget = forms.TextInput(attrs={'placeholder': 'Digite a sua nacionalidade'})
+
+        form.fields['estado_civil'].widget = forms.TextInput(attrs={'placeholder': 'Digite o seu estado civil'})
+
+        form.fields['profissao'].widget = forms.TextInput(attrs={'placeholder': 'Digite a sua profissão'})
+        form.fields['profissao'].label = 'Profissão'
+
+        form.fields['identidade'].widget = forms.TextInput(attrs={'placeholder': 'Digite a sua identidade (RG)'})
+
+        form.fields['cpf'].widget = forms.TextInput(attrs={'placeholder': 'Digite o seu CPF'})
+        form.fields['cpf'].label = 'CPF'
+
+        form.fields['endereco'].widget = forms.TextInput(attrs={'placeholder': 'Digite o seu endereço'})
+        form.fields['endereco'].label = 'Endereço'
+
+        form.fields['email'].widget = forms.TextInput(attrs={'placeholder': 'Digite o seu endereço de e-mail'})
+
         return form
 
 

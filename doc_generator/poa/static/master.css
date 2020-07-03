@@ -14,8 +14,6 @@ body {
 
 .form-body{
   padding: 30px 100px;
-  display: flex;
-  flex-flow: column;
 
   max-width: 800px;
   background: #eee;
@@ -31,15 +29,15 @@ body {
 .forms{
   margin: 0px;
   padding: 0px;
-
-
 }
 
 .navitems{
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  margin: 3px 6px;
+  align-items: flex-end;
+  margin: 4px 8px;
+  align-self: flex-end;
+  align-content: flex-end;
 }
 
 .title-center{
@@ -78,29 +76,89 @@ body {
 .mynav{
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
+  align-self: flex-end;
+  margin-top: 5px;
 }
 
 #logo {
   width: 45px;
   height: 45px;
   padding: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 #postForm {
   padding: 0px;
   margin: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  flex-grow: 1;
+  height: 400px;
 }
 .form-title{
-  margin: 10px 0px;
+  margin: 32px 0px;
 }
 
 
 h3 {
-  margin-top: 20px;
+  margin-top: 24px;
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
-#create {
-  margin: 10px 0px;
+hr {
+  margin: 0;
+  border-top: 1px dotted #bbd8;
+}
+
+#create-button {
+  display: none;
+  width: 0;
+  height: 0;
+  border: 0;
+}
+
+
+
+.button-container{
+  display: flex;
+}
+
+#secondaryButton{
+  margin: 24px auto;
+
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#id_email {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-self: center;
+
+}
+
+.form-group {
+  margin: 0px;
+  padding: 0px;
+  height: 65px;
+  width: 45%;
+}
+
+.form-group > #id_email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-name{
+  font-size: 24px;
 }
