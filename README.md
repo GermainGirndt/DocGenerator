@@ -7,8 +7,8 @@ A personal project
 
 
 ## Features
-
-* Generates a Power of Attourney (Procuração)
+* Python 3.7.7 / Django 3.0.6 Final 0 / Bootstrap 4 / Braces
+* Generates a Power of Attourney (Procuração in portuguese)
 * Store document data in the database, relating it to client's the name
 
 #### Possible Improvements
