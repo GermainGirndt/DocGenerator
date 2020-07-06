@@ -1,6 +1,5 @@
-# :notebook: DocGenerator - Automate the document creation und storage!
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   
-A personal project   
+# :notebook: DocGenerator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   
+Automate your document creation and storage!
 
 
 ## :mag_right: Preview
