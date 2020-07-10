@@ -16,6 +16,7 @@ Automate your document creation and storage!
 * Braces (Django install)
 
 ## :pencil: Possible Improvements
+* Implement a more specific input validation system
 * Create customer model
 * Create a authentication system
 * Add a JWT Token
